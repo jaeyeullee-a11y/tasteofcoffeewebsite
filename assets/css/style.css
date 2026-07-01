@@ -611,8 +611,34 @@ button {
 .footer-inner {
   display: flex;
   flex-direction: column;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.footer-brand-row {
+  display: flex;
+  flex-direction: column;
   gap: 0.5rem;
   align-items: flex-start;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.footer-email {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.footer-email:hover,
+.footer-email:focus-visible {
+  text-decoration: underline;
+  color: #612e17;
 }
 
 /* -------- Breakpoints ------------------------------------ */
@@ -632,6 +658,15 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+  .footer-brand-row {
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .footer-contact {
+    align-items: flex-end;
+    text-align: right;
   }
 }
 
