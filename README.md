@@ -1,4 +1,4 @@
-# Taste of Cookies
+# Taste of Coffee
 
 세계의 커피와 레시피를 모으는 작은 아카이브 웹사이트.
 
